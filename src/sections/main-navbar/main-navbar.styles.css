@@ -1,0 +1,32 @@
+.main-navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 20px 25px 20px;
+}
+
+.main-navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+
+
+}
+
+.main-navbar li {
+    padding: 0 10px 0 10px;
+    font-size: small;
+    font-weight: bold;
+    color: #6D8590;
+
+
+}
+
+.main-navbar li:hover {
+    padding: 0 10px 0 10px;
+    font-size: small;
+    font-weight: bold;
+    color: #4B74B9;
+    border-bottom: 2px solid #4B74B9;
+
+
+}

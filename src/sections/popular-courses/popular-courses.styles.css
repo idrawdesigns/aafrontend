@@ -1,0 +1,30 @@
+.card-wrapper-container {
+    padding: 50px;
+
+}
+
+.card-wrapper {
+    width: 100%;
+    background-color: #ECEFF1;
+
+}
+
+.title-container {
+    margin-bottom: 30px;
+}
+
+.title-container h4 {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.title-container p {
+    margin-top: 10px;
+    font-size: small;
+    color: #90a4ae;
+}
+
+.courses-list {
+    display: flex;
+    flex-wrap: wrap
+}

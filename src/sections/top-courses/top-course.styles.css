@@ -1,0 +1,89 @@
+.top-wrapper {
+    padding: 50px
+}
+
+.top-wrapper h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.top-wrapper p {
+    font-size: small;
+    text-align: center;
+    color: grey;
+}
+
+
+
+
+.image-grid {
+    display: grid;
+    position: relative;
+    margin-top: 20px;
+    height: 440px;
+    grid-template-columns: auto 200px;
+    grid-template-rows: auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-areas:
+        "wordpress wordpress python excel"
+        "wordpress wordpress js js"
+
+}
+
+.word-press {
+    background-image: url('../../assets/wordpress-expert.jpg');
+    grid-area: wordpress;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.python {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/phyton-master-class.jpg');
+    grid-area: python;
+    width: 100%;
+}
+
+.excel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/beginner-to-pro.jpg');
+    grid-area: excel;
+    width: 100%;
+}
+
+.js-ninja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/ultimate-path-to-js.jpg');
+    grid-area: js;
+    width: 100%;
+}
+
+.image-grid h3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: smaller;
+    color: #fff;
+    position: relative;
+}
+
+.overlay_ {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(18, 18, 19, 0.7)
+}

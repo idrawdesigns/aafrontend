@@ -1,0 +1,31 @@
+.wrapper {
+    padding: 40px;
+}
+
+
+.service-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+.service-container {
+    flex: 0 0 33.333333%;
+    text-align: center;
+    padding: 20px;
+}
+
+.service-container span img {
+    padding: 20px;
+    width: 80px;
+    background-color: #0D47A2;
+
+}
+
+.service-container p {
+    font-size: small;
+    color: #94A4AE;
+}
